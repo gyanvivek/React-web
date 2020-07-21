@@ -3,13 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
+/* body {
   font-family: "Grenze Gotisch", cursive;
-}
+} */
 
 html {
   font-size: 10px;
-  font-family: "Grenze Gotisch", cursive;
+  /* font-family: "Grenze Gotisch", cursive; */
   scroll-behavior: smooth;
 }
 

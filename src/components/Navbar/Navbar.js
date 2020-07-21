@@ -117,11 +117,11 @@ export default class Navbar extends React.Component {
                                 ></div>
                             </div>
                             <ul>
-                                <li><Link to="/" data-after="Home">Home</Link></li>
+                                <li><Link to="/collaborator" data-after="Home">Home</Link></li>
                                 <li><Link to="/services" data-after="Service">Services</Link></li>
                                 {/* <li><Link to="#projects" data-after="Projects">Projects</Link></li> */}
                                 <li><Link to='/aboutus' data-after="About Us">About Us</Link> </li>
-                                <li><Link to="/collaborator" data-after="Collaboration">Collaboration</Link></li>
+                                <li><Link to="/contact" data-after="Collaboration">Contact Us</Link></li>
                             </ul>
                         </div>
                     </div>

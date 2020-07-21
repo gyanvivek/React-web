@@ -20,7 +20,7 @@ export default function Services() {
                             </div>
                             <div class="service-title">Web Designs</div>
                             <div class="service-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                               World class design is just a click away.
             </div>
                         </div>
 
@@ -30,7 +30,7 @@ export default function Services() {
                             </div>
                             <div class="service-title">Web Development</div>
                             <div class="service-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+Development of best feature web app is the first nature of Bili.
             </div>
                         </div>
 
@@ -40,7 +40,7 @@ export default function Services() {
                             </div>
                             <div class="service-title">Responsive Designs</div>
                             <div class="service-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+Never compromise with design.Bili will make your imagination come true.
             </div>
                         </div>
 
@@ -50,7 +50,7 @@ export default function Services() {
                             </div>
                             <div class="service-title">Edit Sections</div>
                             <div class="service-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                             Get the best media editing done.  
             </div>
                         </div>
 
@@ -60,7 +60,7 @@ export default function Services() {
                             </div>
                             <div class="service-title">Databases</div>
                             <div class="service-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                               Data is precious so is you.Trust Bili,we keep it safe.
             </div>
                         </div>
 
@@ -70,7 +70,7 @@ export default function Services() {
                             </div>
                             <div class="service-title">Android</div>
                             <div class="service-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                               The modern solution to the changing world.
             </div>
                         </div>
                     </div>

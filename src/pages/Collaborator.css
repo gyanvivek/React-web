@@ -1,67 +1,337 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
+
 }
-body {
-  /* min-height: 1500px; */
-  background-image: url("../Images/bg.jpg");
+
+body{
+  background-color: rgba(0,0,0,0.8);
+}
+.firstdiv{
+  background-image: url('../Images/undraw_pair_programming_njlp.svg');
   background-size: cover;
-  font-family: "Grenze Gotisch", cursive;
+  height:100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  /* clip-path:polygon(0 0,100vw 0,80vw 90vh,0 100vh) */
 }
-.image {
-  margin-left: 17em;
-  margin-top: 130px;
-  width: 60em;
-  height: 50em;
-}
-/* .h1 {
-  margin-top: 200px;
-  margin-left: 40px;
-  font-size: 3em;
-}
-.p {
-  margin-left: 40px;
-} */
 
-.coontact {
-  display: grid;
 
-  grid-template-rows: 1fr 2fr;
-}
-.grida {
-  display: grid;
-  /* background-color: indigo; */
-  margin-top: 27em;
 
-  grid-template-columns: 1fr 2fr;
-}
-.javaimg {
-  align-items: center;
-  margin-top: 70em;
-  height: 600px;
-  width: 600px;
-  margin-right: 60px;
-}
-.gridb {
-  display: grid;
-  border: yellow solid 2px;
-  background-color: teal;
-  border-radius: 100px;
-  margin-bottom: 30px;
-  margin-top: 80em;
-  grid-template-columns: 1fr 2fr;
-}
-p {
-  font-size: 30px;
-  color: white;
-  margin-left: 3em;
-}
-.para {
+.text1stdiv{
+  color:rgba(112, 184, 61,1);
+  display: flex;
   text-align: center;
-  margin-top: 60px;
-  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+ font-size: 5em;
+ position: absolute;
+ top: 30%;
+ left: 42%;
 }
-.icons {
-  margin-left: 20em;
+.text2div1{
+  color: white;
+  font-size: 2em;
+  font-style: oblique;
+  position: absolute;
+  top:10%;
+  left: 35%;
 }
+
+
+
+.seconddiv{
+  /* background-image: linear-gradient(rgba(0, 0,0,.4),rgba(0, 0,0,.4))
+  ,url('../Images/undraw_deliveries_131a.svg'); */
+  background-image: url('../Images/undraw_hacker_mindset_gjwq.svg');
+  background-color: rgba(0,0,0,0.5);
+  background-size: cover;
+  height:100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  
+}
+
+.text1div2{
+  font-size: 3em;
+  color: white;
+  position: relative;
+/* top: 20%;
+left: 30%; */
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.text1div2 span{
+  color:rgba(112, 184, 61,1);
+}
+
+.text2div2{
+  font-size: 2.6em;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* MEDIA QUER STARTS */
+@media(max-width:600px){
+  .firstdiv{
+   background-image: url('../Images/undraw_pair_programming_njlp.svg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 70vh;
+   width: 90vw;
+ 
+  }
+  .react{
+    max-width: 99vw;
+  }
+  .text1stdiv{
+   font-size: 1.8em;
+   position: absolute;
+   top: 7%;
+   left: 38%;
+  }
+  .text2div1{
+    top:50%;
+    
+    font-size:25px;
+  }
+
+  .seconddiv{
+  
+  
+    background-size: contain;
+    height:80vh;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    background-position: center;
+    
+  }
+
+  .text1div2 span{
+  color:rgba(112, 184, 61,1);
+
+}
+
+.text1div2{
+  font-size: 1.6em;
+}
+
+
+.text2div2{
+  font-size: 1.1em;
+left: 20px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+}
+
+}
+/* MEDIA QUERY ENDS */
+
+.justscroll{
+  margin-top: 2.6em;
+  font-size: 2em;
+ 
+  color:rgba(112, 184, 61,.7);
+}
+.justscroll h1{
+  font-size: .8em;
+  color: white;
+  
+}
+
+.square{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.square span:nth-child(1){
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 2px solid #fff;
+border-radius: 38% 62% 37% / 41% 44% 56%;
+transition: 0.5s;
+animation: animate 6s linear infinite;
+}
+.square:hover span:nth-child(1){
+  border:none ;
+  background: rgba(112, 184, 61,.8);
+}
+
+
+.square span:nth-child(2){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 38% 62% 37% / 41% 44% 56%;
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+  }
+  .square:hover span:nth-child(2){
+    border:none ;
+    background: rgba(112, 184, 61,.8);
+  }
+
+  .square span:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 37% / 41% 44% 56%;
+    transition: 0.5s;
+    animation: animate2 10s linear infinite;
+    }
+    .square:hover span:nth-child(3){
+      border:none ;
+      background: rgba(112, 184, 61,.8);
+    }
+
+    @keyframes animate
+    {
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes animate2
+    {
+      0%{
+        transform: rotate(360deg);
+      }
+      100%{
+        transform: rotate(0deg);
+      }
+    }
+
+    .content{
+      position: relative;
+      padding: 40px 60px;
+      color: #fff;
+      text-align: center;
+      transition: .5s;
+      z-index: 1000;
+    }
+.content h2{
+  font-size: 2em;
+}
+    .content a{
+      position: relative;
+      display: inline-block;
+      margin-top: 10px;
+      border: 2px solid #fff;
+      padding: 6px 18px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+    }
+
+
+    .content a:hover{
+      background-color: #fff;
+      color: #333;
+    }
+
+
+    .skillLogo{
+      width: 130%;
+      height: 120%;
+      
+    }
+
+
+    .thirddiv{
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .textofdiv3{
+     margin-bottom: 5.5em;
+
+    }
+    .text1div3{
+      font-size: 4em;
+      color: white;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+     
+    }
+    #contactbutton{
+      border-radius: 10%;
+      font-size: 2em;
+position: relative;
+top: 40%;
+left: 42%;
+color:rgba(112, 184, 61,1);
+  
+    }
+
+    #contactbutton:hover{
+background-color: rgba(112, 184, 61,.5);
+color:white;
+border: 2px solid white;
+    }
+
+    .row2{
+      margin: 30px 0;
+    }
+
+
+
+    @media(max-width:600px){
+      .text1div3{
+        font-size: 2em;
+        text-align: center;
+       
+      }
+
+      .skillLogo{
+        width: 90px;
+        height: 90px;
+        position: relative;
+        top: 20%;
+        
+      }
+
+      #contactbutton{
+        border-radius: 10%;
+        font-size: 2em;
+  position: relative;
+  top: 40%;
+  left: 22%;
+  color:rgba(112, 184, 61,1);
+      }
+
+
+.square{
+  width: 280px;
+  height: 280px;
+}
+
+    }

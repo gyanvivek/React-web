@@ -1,48 +1,168 @@
 import React from 'react'
 import bili from '../Images/bili.png'
-import { MdMailOutline } from "react-icons/md";
-import { FaWhatsapp } from "react-icons/fa";
-import work from '../Images/work.svg'
-import './Collaborator.css';
 
+import work from '../Images/work.svg'
+ import './Collaborator.css';
+import { Link } from 'react-router-dom';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import ReactLogo from '../Images/undraw_react_y7wq.svg';
+import MongoLogo from '../Images/undraw_complete_design_ongo.svg';
+import NodeLogo from '../Images/nodejs.svg';
+import StaticLOgo from '../Images/undraw_static_assets_rpm6.svg';
+import GraphicsLogo from '../Images/undraw_design_tools_42tf.svg';
+import VideoEditor from '../Images/undraw_Designer_by46.svg'
 export default function Collaborator() {
     return (
-        <div>
+      
+<div className="react">
+          <React.Fragment>
+              
+              <div className='firstdiv'>
+          <Row>
+  <Col xs={12} sm={3} md={2} lg={1}  className="text1stdiv animate__zoomIn animate__animated animate__delay-1.8s"><h1>Bili</h1>  </Col> 
+  <p className='text2div1 animate__slideInDown animate__animated'>Your Skills Collaborates With Our Projects !</p>
+  </Row>
+              </div>
 
 
-            {/* <div >
-                <h1 className="h1">Bili believes and encourages the budding talent  all across the country.</h1>
-                <h1 className="p">if you have technical skills then this is the correct place you landed. </h1>
-                <h1 className="p"> Work on real life projects and enhaces your skills.</h1>
-                <img className='image' src={bili} alt="bili" />
-            </div> */}
-            <div className='contact'>
-                <div className="grida">
-                    <div><p>Bili believes and encourages the budding talent  all across the country.
-                    If you have technical skills then this is the correct place you landed.
-                    Work on real life projects and enhaces your skills.
-                    </p> </div>
+<div className="seconddiv">
 
-                    <div className='grid-image'> <img className='image' src={bili} alt="bili" /></div>
-                </div>
-                <div><img className="javaimg" src={work} alt={work} /> </div>
-                <div className="gridb">
-                    <div className="icons"><MdMailOutline size="50px" color="red" /><h1>techbili@bili.co.in</h1></div>
+<Row>
+  
+  <Col xs={12}>
+  <h1 className="text1div2">It's in our name: :<span>Bili</span> means <span> Deliver </span></h1><br />
+    
+    <Row end="xs">
+      <Col xs={12} className="text2div2"> 
+       <div className="justscroll"> Want to join Bili as a freelancer? <br/>
+       <h1>Dont stare just scroll !</h1>
+       </div>
+       </Col>
+    </Row>
+  </Col>
+</Row>        
 
-                    <div>
-                        <h1 className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus vel ipsum hendrerit,
-                        vel pulvinar elit rutrum. Fusce eleifend purus cursus, consequat eros ut, porttitor erat.
-                        Aliquam at vehicula turpis. Nunc viverra diam eget risus fringilla malesuada.
-                        Aenean quis lectus ligula. Nulla vel commodo ipsum. Donec eu pharetra erat, id tincidunt quam.
-                              </h1>
-                    </div>
-                    <div className="icons"><FaWhatsapp color='green' size='50px' /><h1>9142760208</h1></div>
-                </div>
-            </div>
+
+</div>
+         
+
+<div className="thirddiv">
+
+<div className="textofdiv3">
+  <h1 className="text1div3">If you have any of these skills.<br />You are scrolling at the right site.</h1>
+  
+</div>
 
 
 
-        </div>
+<Row around="xs">
+  <Col xs={12} sm={6} md={4} lg={4}>  
+  
+  <div className="square">
+  <span></span>
+  <span></span>
+  <span></span>
+    <div className="content">
+        <img src={ReactLogo} className="skillLogo" />
+      <h2>React.js</h2>
+    </div>
+</div>
+  </Col>
+  <Col xs={12}  sm={6} md={4} lg={4}>         
+<div className="square">
+  <span></span>
+  <span></span>
+  <span></span>
+    <div className="content">
+        <img src={MongoLogo} className="skillLogo" />
+      <h2>mongodb</h2>
+    </div>
+</div>
+</Col>
+
+<Col xs={12}  sm={6} md={4} lg={4}>         
+<div className="square">
+  <span></span>
+  <span></span>
+  <span></span>
+    <div className="content">
+        <img src={NodeLogo} className="skillLogo" />
+      <h2>Node.js</h2>
+    </div>
+</div>
+</Col>
+
+</Row>
+
+
+
+<Row around="xs" className="row2">
+  <Col xs={12} sm={6} md={4} lg={4}>  
+  
+  <div className="square">
+  <span></span>
+  <span></span>
+  <span></span>
+    <div className="content">
+        <img src={StaticLOgo} className="skillLogo" />
+      <h2>Basic Frontend</h2>
+    </div>
+</div>
+  </Col>
+  <Col xs={12}  sm={6} md={4} lg={4}>         
+<div className="square">
+  <span></span>
+  <span></span>
+  <span></span>
+    <div className="content">
+        <img src={GraphicsLogo} className="skillLogo" />
+      <h2>Graphics Designing</h2>
+    </div>
+</div>
+</Col>
+
+<Col xs={12}  sm={6} md={4} lg={4}>         
+<div className="square">
+  <span></span>
+  <span></span>
+  <span></span>
+    <div className="content">
+        <img src={VideoEditor} className="skillLogo" />
+      <h2>Video Editor</h2>
+    </div>
+</div>
+</Col>
+
+</Row>
+
+<Link to='/contact' className="button" id="contactbutton">CONTACT US</Link>
+
+</div>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+          </React.Fragment>
+         
+</div>
+      
+
+           
 
 
     )
