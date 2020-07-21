@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-app-link/static/css/main.23eea72b.chunk.css",
+    "main.js": "/react-app-link/static/js/main.36461a6d.chunk.js",
+    "main.js.map": "/react-app-link/static/js/main.36461a6d.chunk.js.map",
+    "runtime-main.js": "/react-app-link/static/js/runtime-main.9322e501.js",
+    "runtime-main.js.map": "/react-app-link/static/js/runtime-main.9322e501.js.map",
+    "static/css/2.22d6b5ec.chunk.css": "/react-app-link/static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.fbaa9f14.chunk.js": "/react-app-link/static/js/2.fbaa9f14.chunk.js",
+    "static/js/2.fbaa9f14.chunk.js.map": "/react-app-link/static/js/2.fbaa9f14.chunk.js.map",
+    "index.html": "/react-app-link/index.html",
+    "precache-manifest.154dd6b857bcd181785c7f93be7c0576.js": "/react-app-link/precache-manifest.154dd6b857bcd181785c7f93be7c0576.js",
+    "service-worker.js": "/react-app-link/service-worker.js",
+    "static/css/2.22d6b5ec.chunk.css.map": "/react-app-link/static/css/2.22d6b5ec.chunk.css.map",
+    "static/css/main.23eea72b.chunk.css.map": "/react-app-link/static/css/main.23eea72b.chunk.css.map",
+    "static/js/2.fbaa9f14.chunk.js.LICENSE.txt": "/react-app-link/static/js/2.fbaa9f14.chunk.js.LICENSE.txt",
+    "static/media/4K_UHD_25fps_FREE_Video_Background___HUD_Sci_Fi_Plexus_Galactic_Map(720p).mp4": "/react-app-link/static/media/4K_UHD_25fps_FREE_Video_Background___HUD_Sci_Fi_Plexus_Galactic_Map(720p).30d1addc.mp4",
+    "static/media/About.css": "/react-app-link/static/media/aboutus.888c9dd4.svg",
+    "static/media/Services.css": "/react-app-link/static/media/bg.c109d64e.jpg",
+    "static/media/bili.png": "/react-app-link/static/media/bili.b49380af.png",
+    "static/media/nodejs.svg": "/react-app-link/static/media/nodejs.613cf57c.svg",
+    "static/media/undraw_Designer_by46.svg": "/react-app-link/static/media/undraw_Designer_by46.856c0fc3.svg",
+    "static/media/undraw_complete_design_ongo.svg": "/react-app-link/static/media/undraw_complete_design_ongo.4a744e74.svg",
+    "static/media/undraw_design_tools_42tf.svg": "/react-app-link/static/media/undraw_design_tools_42tf.fe97346d.svg",
+    "static/media/Collaborator.css": "/react-app-link/static/media/undraw_pair_programming_njlp.295eb546.svg",
+    "static/media/undraw_react_y7wq.svg": "/react-app-link/static/media/undraw_react_y7wq.09f88c59.svg",
+    "static/media/undraw_static_assets_rpm6.svg": "/react-app-link/static/media/undraw_static_assets_rpm6.6c85616f.svg",
+    "static/media/video.mp4": "/react-app-link/static/media/video.b93c31f4.mp4",
+    "static/media/work.svg": "/react-app-link/static/media/work.7b8d9b1d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9322e501.js",
+    "static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.fbaa9f14.chunk.js",
+    "static/css/main.23eea72b.chunk.css",
+    "static/js/main.36461a6d.chunk.js"
+  ]
+}
