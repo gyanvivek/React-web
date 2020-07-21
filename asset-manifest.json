@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-bilii/static/css/main.e7b51836.chunk.css",
-    "main.js": "/react-bilii/static/js/main.312f1e08.chunk.js",
-    "main.js.map": "/react-bilii/static/js/main.312f1e08.chunk.js.map",
+    "main.js": "/react-bilii/static/js/main.cc0b1905.chunk.js",
+    "main.js.map": "/react-bilii/static/js/main.cc0b1905.chunk.js.map",
     "runtime-main.js": "/react-bilii/static/js/runtime-main.066b8594.js",
     "runtime-main.js.map": "/react-bilii/static/js/runtime-main.066b8594.js.map",
     "static/css/2.22d6b5ec.chunk.css": "/react-bilii/static/css/2.22d6b5ec.chunk.css",
     "static/js/2.fbaa9f14.chunk.js": "/react-bilii/static/js/2.fbaa9f14.chunk.js",
     "static/js/2.fbaa9f14.chunk.js.map": "/react-bilii/static/js/2.fbaa9f14.chunk.js.map",
     "index.html": "/react-bilii/index.html",
-    "precache-manifest.8746699d080473411b967b0e9aba7802.js": "/react-bilii/precache-manifest.8746699d080473411b967b0e9aba7802.js",
+    "precache-manifest.b79760d214870f35e851fa28a6826ac9.js": "/react-bilii/precache-manifest.b79760d214870f35e851fa28a6826ac9.js",
     "service-worker.js": "/react-bilii/service-worker.js",
     "static/css/2.22d6b5ec.chunk.css.map": "/react-bilii/static/css/2.22d6b5ec.chunk.css.map",
     "static/css/main.e7b51836.chunk.css.map": "/react-bilii/static/css/main.e7b51836.chunk.css.map",
@@ -33,6 +33,6 @@
     "static/css/2.22d6b5ec.chunk.css",
     "static/js/2.fbaa9f14.chunk.js",
     "static/css/main.e7b51836.chunk.css",
-    "static/js/main.312f1e08.chunk.js"
+    "static/js/main.cc0b1905.chunk.js"
   ]
 }

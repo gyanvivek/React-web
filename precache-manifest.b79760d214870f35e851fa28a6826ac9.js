@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97fb661b0fa128aa1b8231e32e4fe4fe",
+    "revision": "e2c9bf0a2ad033f6343bff97eaf6b22b",
     "url": "/react-bilii/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-bilii/static/css/2.22d6b5ec.chunk.css"
   },
   {
-    "revision": "259c1e9d6e563d541d24",
+    "revision": "c6eb67f63161d069aac8",
     "url": "/react-bilii/static/css/main.e7b51836.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-bilii/static/js/2.fbaa9f14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "259c1e9d6e563d541d24",
-    "url": "/react-bilii/static/js/main.312f1e08.chunk.js"
+    "revision": "c6eb67f63161d069aac8",
+    "url": "/react-bilii/static/js/main.cc0b1905.chunk.js"
   },
   {
     "revision": "07376c156beeae3b1c77",
