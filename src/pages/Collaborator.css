@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* min-height: 1500px; */
+  background-image: url("../Images/bg.jpg");
+  background-size: cover;
+  font-family: "Grenze Gotisch", cursive;
+}
+.image {
+  margin-left: 17em;
+  margin-top: 130px;
+  width: 60em;
+  height: 50em;
+}
+/* .h1 {
+  margin-top: 200px;
+  margin-left: 40px;
+  font-size: 3em;
+}
+.p {
+  margin-left: 40px;
+} */
+
+.coontact {
+  display: grid;
+
+  grid-template-rows: 1fr 2fr;
+}
+.grida {
+  display: grid;
+  /* background-color: indigo; */
+  margin-top: 27em;
+
+  grid-template-columns: 1fr 2fr;
+}
+.javaimg {
+  align-items: center;
+  margin-top: 70em;
+  height: 600px;
+  width: 600px;
+  margin-right: 60px;
+}
+.gridb {
+  display: grid;
+  border: yellow solid 2px;
+  background-color: teal;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  margin-top: 80em;
+  grid-template-columns: 1fr 2fr;
+}
+p {
+  font-size: 30px;
+  color: white;
+  margin-left: 3em;
+}
+.para {
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+.icons {
+  margin-left: 20em;
+}

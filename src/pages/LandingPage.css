@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#videolayout {
+  max-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.cityText h1 {
+  font-size: 5em;
+}
+.cityText {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+p {
+  margin-right: 3em;
+}
+.pa {
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+
+.button {
+  align-self: center;
+  letter-spacing: 4px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  background-color: transparent;
+  border-radius: 5%;
+  border: white solid 2px;
+  margin-top: em;
+}
+.cityText .button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .cityText h1 {
+    font-size: 2em;
+  }
+  .cityText .button {
+    font: 1em;
+  }
+  .cityText p {
+    font-size: 1em;
+  }
+}
